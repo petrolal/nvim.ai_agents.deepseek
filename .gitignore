@@ -1,0 +1,7 @@
+# Dotfiles .gitignore
+*.swp
+*.swo
+*~
+.session
+.netrwhist
+.DS_Store
