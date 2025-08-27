@@ -1,5 +1,5 @@
 local M = {}
-local config = require("deepseek-nvim.config").config
+local config = require("deepseek-nvim.module.config").config
 
 -- Função para fazer requisição ao Ollama
 local function ask_ollama(prompt, callback)
