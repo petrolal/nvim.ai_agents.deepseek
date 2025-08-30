@@ -40,7 +40,7 @@ RUN pip3 install --no-cache-dir \
 WORKDIR /app
 
 # Script de inicialização
-COPY entrypoint.sh /entrypoint.sh
+COPY scripts/entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
 # Expõe a porta do Ollama
